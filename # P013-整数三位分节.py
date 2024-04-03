@@ -11,10 +11,7 @@ formatted_output = format_number_with_commas(int(input()))
 print(formatted_output)
 
 """
-当然，f-strings是Python 3.6中引入的一种字符串格式化机制，正式名称为“格式化字符串字面值”。f-strings提供了一种快速且直观的方式来嵌入Python表达式到字符串字面值中。
-
-使用f-strings时，您只需在字符串前加上`f`或`F`前缀，并将变量或表达式放入花括号`{}`中。这些表达式会在运行时求值，并将结果转换为字符串。这使得代码更易读、更简洁。
-
+f-sting
 **基本用法**:
 ```python
 name = "Copilot"
