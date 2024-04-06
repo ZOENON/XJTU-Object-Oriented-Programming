@@ -4,10 +4,8 @@
 # 输入:存款金额，存期，年利率。均为浮点数，且用逗号分隔
 # 输出：存款本息（保留2位小数）
 
-a=list(map(float,input().split(',')))
-m=a[0]
-y=int(a[1])
-r=a[2]
+m,y,r=map(float,input().split(','))
+y=int(y)
 n=m*(pow((1+r),y))
 print('%.2f'%n)
 #在保留几位数据的时候不推荐使用round函数，因为round的进位规则为四舍六入五凑偶
