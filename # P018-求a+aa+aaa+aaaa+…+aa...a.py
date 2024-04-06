@@ -1,6 +1,5 @@
-c=list(map(int,input().split()))
-a=c[0]
-b=c[1]
+a,b=map(int,input().split())
+
 r=''
 s=0
 for i in range(b):
