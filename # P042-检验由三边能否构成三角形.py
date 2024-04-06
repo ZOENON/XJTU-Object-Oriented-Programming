@@ -4,10 +4,8 @@
 
 # 输出：如果可以构成三角形，输出YES，否则输出ERROR DATA
 
-a=list(map(float,input().split()))
-m=a[0]
-y=a[1]
-r=a[2]
+m,y,r=map(float,input().split())
+
 if m+y>r and m+r>y and y+r>m:
     print('YES')
 else:
