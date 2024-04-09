@@ -1,0 +1,5 @@
+n=int(input())
+hours=int(n/3600)
+minutes=int(n%3600/60)
+seconds=int(n%3600%60)
+print(f'{hours}:{minutes:0>2}:{seconds:0>2}')
