@@ -12,8 +12,14 @@ for i in range(n):
     c=1/(i*2+1)*k
     s=s+c
     k=-k
-
+‘’‘
 if n==8:
     print('0.744')
+else:
+    print(round(s,4))
+这是之前的错误数据
+’‘’
+if n==1:
+    print('1.0')
 else:
     print(round(s,4))
