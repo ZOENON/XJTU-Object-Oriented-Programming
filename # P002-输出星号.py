@@ -4,5 +4,7 @@
 # 输出：3行星号
 
 for i in range(3):
+    # 用户输入一个整数
     x=int(input())
+    # 打印星号
     print('*'* x)

@@ -12,6 +12,7 @@ while 1:
         print(0)
         x = int(input())
     else:
+        #print(x**0.5)
         # 如果输入的数在合法范围内，则导入math模块
         import math
         # 计算输入数的平方根并输出整数部分
