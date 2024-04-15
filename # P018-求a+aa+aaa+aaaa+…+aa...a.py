@@ -5,7 +5,7 @@ s=0
 for i in range(b):
     r=r+str(a)+'+'
     s=s+a
-    a=a*10+c[0]
+    a=a*10
 
 print(r[0:-1]+'='+str(s))#这里用[]输出从第一位到倒数第二位，去掉了加号
 
